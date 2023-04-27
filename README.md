@@ -15,14 +15,17 @@ The data Martha will be working with is not ideal, so it will need to be process
 Deliverables:
 This new assignment consists of four technical analysis parts. You will submit the following:
 
-Part 1: Preprocessing the Data for PCA
-Part 2: Reducing Data Dimensions Using PCA
-Part 3: Clustering Cryptocurrencies Using K-means
-Part 4: Visualizing Cryptocurrencies Results
+    * Part 1: Preprocessing the Data for PCA
+
+    * Part 2: Reducing Data Dimensions Using PCA
+
+    * Part 3: Clustering Cryptocurrencies Using K-means
+
+    * Part 4: Visualizing Cryptocurrencies Results
+
 
 Part 1: Preprocessing the Data for PCA 
 Using your knowledge of Pandas, you’ll preprocess the dataset in order to perform PCA in Part 2.
-
 
 
 Part 2: Reducing Data Dimensions Using PCA 
@@ -30,14 +33,34 @@ Using your knowledge of how to apply the Principal Component Analysis (PCA) algo
 components and place these dimensions in a new DataFrame.
 
 
-
-
 Part 3: Clustering Cryptocurrencies Using K-means 
 Using your knowledge of the K-means algorithm, you’ll create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame 
 created in Part 2. Then, you’ll run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
 
 
-
 Part 4: Visualizing Cryptocurrencies Results 
 Using your knowledge of creating scatter plots with Plotly Express and hvplot, you’ll visualize the distinct groups that correspond to the three principal 
 components you created in Part 2, then you’ll create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
+
+Clustering Cryptocurrencies Using K means - Elbow Curve
+
+<img width="608" alt="ElbowCurve" src="https://user-images.githubusercontent.com/119356418/234727706-e97d17bb-5787-4cb5-bcda-7a7d752d1f08.png">
+
+Visualizing Cryptocurrencies  
+
+3D Scatter Plot
+
+<img width="556" alt="3DScatterPlot" src="https://user-images.githubusercontent.com/119356418/234727763-9427a08f-0b2f-4958-8d85-25626521638c.png">
+
+2D Scatter Plot
+
+<img width="476" alt="2DScatterPlot" src="https://user-images.githubusercontent.com/119356418/234727781-e4052125-b3f0-4f3b-aacb-cc000c21ff7c.png">
+
+Tradable Cryptocurrencies Table 
+
+<img width="625" alt="Part3" src="https://user-images.githubusercontent.com/119356418/234727817-10d814aa-d55b-41fd-8b23-7c5eae7ea9d4.png">
+
+
+
+
+
